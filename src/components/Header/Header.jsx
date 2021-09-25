@@ -43,16 +43,13 @@ export default function Header() {
                         <a href="#AboutMeSec" onClick={toggle}>About</a>
                     </li>
                     <li>
-                        <a href="#SkillsSec" onClick={toggle}>Services</a>
+                        <a href="#SkillsSec" onClick={toggle}>Skills</a>
                     </li>
                     <li>
-                        <a href="#ProjectSec" onClick={toggle}>Contact</a>
+                        <a href="#ProjectSec" onClick={toggle}>Projects</a>
                     </li>
                 </ul>
             </div>
-
-            {/* {getMar = document.getElementById("header").style.height}
-            {document.getElementById("dul").style.marginTop = getMar} */}
         </>
 
     )
